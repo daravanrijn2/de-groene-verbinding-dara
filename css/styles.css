@@ -1,0 +1,188 @@
+@font-face {
+    font-family: Gloria;
+    src: url(../fonts/GloriaHallelujah-Regular.ttf);
+}
+
+@font-face {
+    font-family: noteworthy;
+    src: url(../fonts/Noteworthy-Lt\ 2.ttf);
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+#index{
+    background-image: url(../fotos/achtergrond1.png);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#eten{
+    background-image: url(../fotos/achtergrond2.png);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#kunst{
+    background-image: url(../fotos/achtergrond3.png);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: gloria;
+    padding: 1.5em;  
+    margin-top: -7em;
+}
+
+a{
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+#index header img{
+    width: 15em;
+}
+
+#index ul{
+    margin-top: -9em;  
+}
+
+#index header a{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.9em;
+}
+
+#index p{
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: noteworthy;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+header img{
+    width: 12em;
+}
+
+#eten header a{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.7em;
+    text-decoration: none;
+}
+
+#eten div{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+#eten main img{
+    width: 50%;
+    margin: 0.5em;    
+}
+
+#eten main{
+    display: flex;
+    flex-direction: column;
+}
+
+.pijltje {
+    margin-left: 18em;
+    margin-top: -0.3em;
+    width: 23%;
+}
+
+#eten main p{
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: noteworthy;
+}
+
+#eten main h2{
+    font-family: noteworthy;
+    text-align: center;
+    margin-bottom: -0.6em;
+}
+
+#eten main a{
+    width: 60%;
+    text-align: center;
+}
+
+#eten ul li:nth-of-type(1) a{
+font-size: larger;
+margin-top: 2em;
+}
+
+#kunst ul li:nth-of-type(2) a{
+    font-size: larger;
+    margin-top: 1.6em;
+}
+
+#kunst header a{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.4em;
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+}
+
+section:nth-of-type(odd){
+    flex-direction: row-reverse;
+}
+
+section img, section div{
+    margin: 0.5em 0.5em;
+}
+
+#kunst section img{
+    width: 40%;
+    height: 30%;
+    margin-top: 4.8em;
+    border: solid black;
+}
+
+#kunst p{
+    margin-top: -1.2em;
+    font-family: noteworthy;
+}
+
+#kunst h2{
+    font-family: noteworthy;
+}
+
+footer{
+    font-family: noteworthy;
+    font-size: smaller;
+    text-align: center;
+    margin-top: 4em;
+    background-color: rgb(244, 242, 242);
+}
